@@ -7,10 +7,10 @@ export class App extends Marionette.Application
 {
   onStart()
   {
-    const todoView = new LayoutView({
+    const websiteView = new LayoutView({
       collection: new Backbone.Collection(),
     });
-    todoView.render();
+    websiteView.render();
   }
 }
 
