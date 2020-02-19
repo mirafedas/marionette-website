@@ -14,6 +14,10 @@ body {
   color: white;
 }
 
+.social-networks-icons:hover {
+  cursor: pointer;
+}
+
 .middle-line {
   display: flex;
   align-items: center;
@@ -29,7 +33,7 @@ body {
 .search-input {
   width: 250px;
   height: 30px;
-  padding: 5px;
+  padding: 5px 10px;
   font-size: 0.9rem;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -41,6 +45,11 @@ body {
   height: 44px;
   width: 44px;
   background-color: #DF3550;
+  border: none;
+}
+
+.search-btn:hover {
+  cursor: pointer;
 }
 
 .search-icon {
@@ -59,6 +68,10 @@ body {
 .icons-btn {
   border: none;
   background-color: white;
+}
+
+.icons-btn:hover {
+  cursor: pointer;
 }
 
 .nav-wrapper {
@@ -83,6 +96,10 @@ body {
   margin-right: 5px;
 }
 
+.menu-icon:hover {
+  cursor: pointer;
+}
+
 .nav-list {
   display: flex;
   flex-wrap: wrap;
@@ -105,6 +122,7 @@ body {
 .nav-link:hover {
   color: #DF3550;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .cart-wrapper {
@@ -122,6 +140,91 @@ body {
   margin: 0 10px;
 }
 
+.cart-icon:hover {
+  cursor: pointer;
+}
+
 .underline {
   border-bottom: 1px solid black;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 2rem 0 2rem;
+  background-color: #F6F6F6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-col-1 {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.footer-nav {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid lightgrey;
+}
+
+.payment-systems {
+  min-width: 300px;
+  max-width: 450px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-text {
+  font-size: 0.9rem;
+  text-align: justify;
+  color: grey;
+  line-height: 1.5rem;
+}
+
+.footer-list-title {
+  margin-top: 0;
+}
+
+.footer-list-item {
+  margin: 10px 0;
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.footer-list-item:hover {
+  color: #DF3550;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.mobile-menu-icon, .mobile-cart-icon {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .top-line, .search-wrapper, .icons-wrapper, .nav-wrapper {
+    display: none;
+  }
+
+  .middle-line {
+    justify-content: space-between;
+  }
+
+  .mobile-menu-icon, .mobile-cart-icon {
+    display: block;
+  }
 }
