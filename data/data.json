@@ -1,0 +1,81 @@
+{
+  "promo": [
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11.jpg",
+      "title": "Closing trend 2018",
+      "subtitle": "Sale offer 20% off this week",
+      "buttonText": "Shop now",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/currnet-styling-trend/"
+    },
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/01/2019-01-17.png",
+      "title": "Mid season sale",
+      "subtitle": "Sales up to 25% off",
+      "buttonText": "Starting At $20",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/"
+    },
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/2019-03-22.jpg",
+      "title": "Autumn fashion",
+      "subtitle": "New arrival fall 2018",
+      "buttonText": "Shop now",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/#"
+    }
+  ],
+  "collection": [
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/gajaltae-kte.png",
+      "title": "Ducebag Collection",
+      "subtitle": "Mini Studded",
+      "buttonText": "See collection",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/"
+    },
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/abag.png",
+      "title": "Hairband Collection",
+      "subtitle": "Jaccquard Print",
+      "buttonText": "See collection",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/jaccquard-print/"
+    },
+    {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/goraman.png",
+      "title": "Corduroy Culottes",
+      "subtitle": "Special Price",
+      "buttonText": "See collection",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/"
+    }
+  ],
+  "styles": [
+    {
+      "image":
+      "title":
+      "price":
+      "salePrice":
+      "url":
+    }
+  ],
+  "sale": {
+    "image",
+    "title",
+    "subtitle",
+    "price",
+    "url"
+  },
+  "accessories": [
+    {
+      "image":
+      "title":
+      "price":
+      "url":
+    }
+  ],
+  "blog": [
+    {
+      "image":
+      "date":
+      "title":
+      "text":
+      "url":
+    }
+  ]
+}
