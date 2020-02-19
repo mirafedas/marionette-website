@@ -7,7 +7,6 @@ export default class HeaderView extends Marionette.LayoutView
   {
     options.template = HeaderTemplate;
     options.tagName = 'header';
-    options.className = 'header';
 
     super(options)
   }

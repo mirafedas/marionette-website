@@ -7,8 +7,6 @@ export default class FooterView extends Marionette.LayoutView
   {
     options.template = FooterTemplate;
     options.tagName = 'footer'
-    options.className = 'footer'
-
     super(options)
   }
 }

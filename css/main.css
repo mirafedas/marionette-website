@@ -150,7 +150,7 @@ body {
   border-bottom: 1px solid black;
 }
 
-.footer {
+footer {
   display: flex;
   flex-wrap: wrap;
   padding: 20px 2rem 0 2rem;
