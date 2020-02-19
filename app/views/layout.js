@@ -7,7 +7,6 @@ import ProductListView from './productlist'
 import AdvertView from './advert'
 import AccessoriesListView from './accessories'
 import BlogView from './blog'
-import SponsorshipView from './sponsorship';
 import HeaderView from './header';
 import FooterView from './footer';
 
@@ -24,7 +23,6 @@ export default class AppView extends Marionette.LayoutView
      advert: '#advert',
      accessories: '#accessories-list',
      blog: '#blog',
-     sponsorship: '#sponsorship',
      header: '#header',
      footer: '#footer'
    };
@@ -40,10 +38,8 @@ export default class AppView extends Marionette.LayoutView
     const advertView = new AdvertView({model: this.model});
     const accessoriesListView = new AccessoriesListView({model: this.model});
     const blogView = new BlogView({model: this.model});
-    const sponsorshipView = new SponsorshipView({model: this.model});
     const headerView = new HeaderView({model: this.model});
     const footerView = new FooterView({model: this.model});
-
 
     this.showChildView('bannerlist', bannerListView);
     this.showChildView('menu', menuView);
@@ -51,7 +47,6 @@ export default class AppView extends Marionette.LayoutView
     this.showChildView('advert', advertView);
     this.showChildView('accessories', accessoriesListView);
     this.showChildView('blog', blogView);
-    this.showChildView('sponsorship', sponsorshipView);
     this.showChildView('header', headerView);
     this.showChildView('footer', footerView)
   }
