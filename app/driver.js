@@ -1,7 +1,7 @@
 import Backbone from 'backbone';
 import Marionette from 'backbone.marionette';
 
-import homepageModel from './models/homepage';
+import HomePageModel from './models/homepage';
 import LayoutView from './views/layout';
 
 export class App extends Marionette.Application
@@ -9,7 +9,7 @@ export class App extends Marionette.Application
   onStart()
   {
     const websiteView = new LayoutView({
-      model: new homepageModel()
+      model: new HomePageModel()
     });
     websiteView.render();
   }
