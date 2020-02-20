@@ -217,6 +217,99 @@ footer {
   display: none;
 }
 
+/* Accessories styles */
+.accessories-list-container {
+  padding: 60px 0;
+}
+
+.accessories-title-wrapper {
+  text-align: center;
+  line-height: 2;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.accessories-title {
+  color: #979797;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.accessories-subtitle {
+  color: #2c2a2b;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.accessories-container {
+  display: grid;
+  grid-template: 1fr/ repeat(3, 1fr);
+  column-gap: 2%;
+}
+
+.accessories-container>div:nth-of-type(n+4) {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.accessory-wrapper {
+  display: flex;
+  padding: 10px 10px 20px 0;
+}
+
+.accessory-image-container {
+  width: 43%;
+}
+
+.accessory-image-container img{
+  width: 100%;
+}
+
+.accessory-info {
+  width: 57%;
+  padding-left: 20px;
+  align-self: center;
+  font-family: Poppins;
+}
+
+.accessory-info h2 {
+  margin: 0;
+  line-height: 1;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+
+.accessory-info a {
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.accessory-info a:hover {
+  color: #DF3550;
+  cursor: pointer;
+}
+
+.accessory-price {
+  margin: 0;
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.accessory-price strike {
+  opacity: .5;
+}
+
 /* Advert styles */ 
 .advert {
   height: 400px;
@@ -267,5 +360,25 @@ footer {
 
   .mobile-menu-icon, .mobile-cart-icon {
     display: block;
+  }
+
+  .accessories-container {
+    grid-template: 1fr/ repeat(2, 1fr);
+  }
+
+  .accessories-container>div:nth-of-type(n+4) {
+    border-top: none;
+    padding-top: 10px;
+  }
+
+  .accessory-wrapper {
+    border-top: none;
+    padding: 10px 10px 10px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .accessories-container {
+    grid-template: 1fr/ 1fr;
   }
 }
