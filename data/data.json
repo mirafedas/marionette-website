@@ -28,6 +28,7 @@
       "title": "Ducebag Collection",
       "subtitle": "Mini Studded",
       "buttonText": "See collection",
+      "position": "left",
       "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/"
     },
     {
@@ -42,6 +43,7 @@
       "title": "Corduroy Culottes",
       "subtitle": "Special Price",
       "buttonText": "See collection",
+      "position": "right",
       "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/"
     }
   ],
