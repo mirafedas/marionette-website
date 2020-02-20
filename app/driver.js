@@ -4,6 +4,9 @@ import Marionette from 'backbone.marionette';
 import HomePageModel from './models/homepage';
 import LayoutView from './views/layout';
 
+import homepageModel from './models/homepage';
+
+
 export class App extends Marionette.Application
 {
   onStart()
