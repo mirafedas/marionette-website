@@ -247,7 +247,6 @@ footer {
   border: none;
   font-size: 16px;
   font-weight: 600;
-  font-family: poppins;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
@@ -264,7 +263,6 @@ footer {
   background-color: transparent;
   border: none;
   font-size: 22px;
-  font-family: poppins;
   line-height: 1;
   text-transform: capitalize;
   text-decoration: none;
@@ -283,7 +281,6 @@ footer {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: 500;
-  font-family: poppins;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -292,7 +289,6 @@ footer {
   margin-bottom: 25px;
   font-size: 44px;
   font-weight: 600;
-  font-family: poppins;
   line-height: 1;
   text-transform: capitalize;
 }
