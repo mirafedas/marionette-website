@@ -5,7 +5,7 @@ body {
 }
 
 * {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -379,7 +379,6 @@ footer {
   .mobile-menu-icon, .mobile-cart-icon {
     display: block;
   }
-<<<<<<< HEAD
 
   /* Menu styles */
 
@@ -553,4 +552,3 @@ footer {
     width: 100%;
   }
 }
-/**/
