@@ -1,43 +1,43 @@
 <div class="container">
-	<div class="blog">
-		<div class="blog__title__wrapper">
-			<div class="blog__title">fashion blog</div>
-			<h3 class="blog__subtitle">what we see</h3>
-		</div>
-		<div class="menu">
-			{{#each data.blog}}
-			<div class="menu__item blog__item">
-				<div>
-					<img src="{{this.image}}" alt="{{this.alt}}" class="blog__image">
-				</div>
-				<div class="blog__content">
-					<div class="blog__date">
-						<div>
-							<div class="blog__day">
-								<span class="blog__day__posted">{{../formatDay}}</span>
-								<span class="blog__ym">
-									<span class="blog__month__posted">{{../formatMonth}}</span>
-									<span>{{../formatYear}}</span>
-								</span>
-							</div>
-						</div>
-					</div>
-					<h2 class="blog__content__title">
-						<a href="{{this.url}}" class="blog__content__link">{{this.title}}</a>
-					</h2>
-					<div class="blog__description">
-						<div>
-							{{this.text}}
-						</div>
-						<div class="blog__read-more">
-							<a href="{{this.url}}" class="blog__read-more__link">
-								Read More
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			{{/each}}
-		</div>
-	</div>
+  <div class="blog">
+    <div class="blog__title__wrapper">
+      <div class="blog__title">fashion blog</div>
+      <h3 class="blog__subtitle">what we see</h3>
+    </div>
+    <div class="menu">
+      {{#each data.blog}}
+      <div class="menu__item blog__item">
+        <div>
+          <img src="{{this.image}}" alt="{{this.alt}}" class="blog__image">
+        </div>
+        <div class="blog__content">
+          <div class="blog__date">
+            <div>
+              <div class="blog__day">
+                <span class="blog__day__posted">{{../formatDay}}</span>
+                <span class="blog__ym">
+                  <span class="blog__month__posted">{{../formatMonth}}</span>
+                  <span>{{../formatYear}}</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <h2 class="blog__content__title">
+            <a href="{{this.url}}" class="blog__content__link">{{this.title}}</a>
+          </h2>
+          <div class="blog__description">
+            <div>
+              {{this.text}}
+            </div>
+            <div class="blog__read-more">
+              <a href="{{this.url}}" class="blog__read-more__link">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
 </div>
