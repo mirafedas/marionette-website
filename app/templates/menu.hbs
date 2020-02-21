@@ -1,1 +1,22 @@
-<div style="background-color: rgb(43, 226, 89); height: 50vh"></div>
+<div class="container">
+  <div class="menu">
+    {{#each data.collection}}
+    <div class="menu__item">
+      <div class="menu__item__content"{{#if position}} style="text-align:{{this.position}}; {{this.position}}: 0" {{/if}}>
+        <div class="menu__item__subtitle">{{this.subtitle}}</div>
+        <div class="menu__item__title">{{this.title}}</div>
+        <div class="menu__item__button">
+          <a href="{{this.url}}" class="menu__item__link">
+            {{this.buttonText}}
+          </a>
+        </div>
+      </div>
+      <div class="menu__item__wrapper">
+        <a href="{{this.url}}" class="menu__item__url">
+          <img src="{{this.image}}" alt="{{this.alt}}" class="menu__item__image" title="Home">
+        </a>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
