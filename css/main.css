@@ -223,97 +223,76 @@ footer {
 
 /* Bannerlist styles */
 .banner-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
   min-height: 600px;
   color: white;
-  overflow: hidden; 
 }
 
-.banner-list-item, .banner-list-item-big {
+.banner-list__item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
-  height: 300px;
+  justify-content: center;
+  height: 100%;
+  padding-right: 2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.banner-list-item-content {
-  margin-right: 0 20px;
-}
-
-.banner-list-item-big, .banner-list-item-wrapper {
-  flex: 1;
-  height: 600px;
-  min-width: 400px;
-}
-
-.banner-list-item-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.banner-list-item {
-  align-items: flex-end;
-  padding-right: 2rem;
-}
-
-.banner-list-btn-red {
-  color: #fff;
-  text-decoration: none;
-  background-color: #DF3550;
-  font-family: poppins;
+.banner-list__btn__red {
   padding: 15px 30px;
-  text-transform: uppercase;
+  background-color: #DF3550;
+  border: none;
   font-size: 16px;
   font-weight: 600;
-  border: none;
-}
-
-.banner-list-btn-red:hover {
-  color: #DF3550;
-  background-color: #fff;
-}
-
-.banner-list-btn-transparent {
+  font-family: poppins;
+  text-transform: uppercase;
+  text-decoration: none;
   color: #fff;
+}
+
+.banner-list__btn__red:hover {
+  background-color: #fff;
+  color: #DF3550;
+}
+
+.banner-list__btn__transparent {
+  display: block;
+  position: relative;
   background-color: transparent;
   border: none;
   font-size: 22px;
   font-family: poppins;
-  position: relative;
-  color: #fff;
-  display: block;
   line-height: 1;
-  text-decoration: none;
   text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
 }
 
-.banner-list-btn-transparent:hover {
+.banner-list__btn__transparent:hover {
   color: #DF3550;
 }
 
-.banner-list-link {
+.banner-list__link {
   text-decoration: none;
 }
 
-.banner-list-item-subtitle {
+.banner-list__item__subtitle {
+  margin-bottom: 10px;
   font-size: 18px;
   font-weight: 500;
   font-family: poppins;
   line-height: 1;
-  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
-.banner-list-item-title {
+.banner-list__item__title {
+  margin-bottom: 25px;
   font-size: 44px;
   font-weight: 600;
   font-family: poppins;
-  margin-bottom: 25px;
   line-height: 1;
   text-transform: capitalize;
 }
@@ -748,6 +727,15 @@ footer {
 @media screen and (max-width: 992px) {
   .product__wrapper {
     width: 31%;
+  }
+
+  .banner-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-list__item {
+    min-height: 250px;
   }
 }
 

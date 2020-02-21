@@ -1,25 +1,11 @@
 <div class="banner-list">
-  <div class="banner-list-item-big" style="background-image: url({{data.promo.0.image}})">
-    <div class="banner-list-item-subtitle">{{data.promo.0.subtitle}}</div>
-    <div class="banner-list-item-title">{{data.promo.0.title}}</div>
-    <a class="banner-list-link" href="{{data.promo.0.url}}">
-      <button class="banner-list-btn-red">{{data.promo.0.buttonText}}</button>
-    </a>
-  </div>
-  <div class="banner-list-item-wrapper">
-    <div class="banner-list-item" style="background-image: url({{data.promo.1.image}})">
-        <div class="banner-list-item-subtitle">{{data.promo.1.subtitle}}</div>
-        <div class="banner-list-item-title">{{data.promo.1.title}}</div>
-        <a class="banner-list-link" href="{{data.promo.1.url}}">
-          <button class="banner-list-btn-transparent">{{data.promo.1.buttonText}}</button>
-        </a>
-    </div>
-    <div class="banner-list-item" style="background-image: url({{data.promo.2.image}})">
-      <div class="banner-list-item-subtitle">{{data.promo.2.subtitle}}</div>
-      <div class="banner-list-item-title">{{data.promo.2.title}}</div>
-      <a class="banner-list-link" href="{{data.promo.2.url}}">
-        <button class="banner-list-btn-red">{{data.promo.2.buttonText}}</button>
+  {{#each data.promo}}
+    <div class="banner-list__item" style="background-image: url({{this.image}}); grid-row: {{this.row}}; grid-column: {{this.column}}; align-items: {{this.alignItems}}">
+      <div class="banner-list__item__subtitle">{{this.subtitle}}</div>
+      <div class="banner-list__item__title">{{this.title}}</div>
+      <a class="banner-list__link" href="{{this.url}}">
+        <button {{#if isButtonTransparent}} class="banner-list__btn__transparent" {{else}}class="banner-list__btn__red" {{/if}}>{{this.buttonText}}</button>
       </a>
     </div>
-  </div>
+  {{/each}}
 </div>
