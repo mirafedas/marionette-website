@@ -204,6 +204,7 @@
   "blog": [
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-2-390x290.jpg",
+      "alt": "man",
       "date": "19 Feb 2020",
       "title": "Spring summer fashion trends",
       "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
@@ -211,6 +212,7 @@
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-1-390x290.jpg",
+      "alt": "children",
       "date": "19 Feb 2020",
       "title": "Current Styling Trend",
       "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
@@ -218,6 +220,7 @@
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-390x290.jpg",
+      "alt": "woman",
       "date": "19 Feb 2020",
       "title": "Best fashion trends for women",
       "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
