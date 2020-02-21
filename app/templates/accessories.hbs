@@ -1,1 +1,27 @@
-<div style="background-color: blueviolet; height: 50vh"></div>
+<div class="accessories-list-container content__wrapper">
+  <div class="accessories-title-wrapper">
+    <h3 class="accessories-title">mens accessories</h3>
+    <h2 class="accessories-subtitle">in store availability</h2>
+  </div>
+  <div class="accessories-container">
+    {{#each data.accessories}}
+      <div class="accessory-wrapper">
+        <div class="accessory-image-container">
+          <img src="{{this.image}}" alt="{{this.title}}" class="accessory-image">
+        </div>
+        <div class="accessory-info">
+          <h2 class="accessory-title">
+            <a href="{{this.productUrl}}">{{this.title}}</a>
+          </h2>
+        {{#if this.salePrice}}
+          <p class="accessory-price">
+            <strike>&pound;{{this.price}}</strike> &pound;{{this.salePrice}}
+          </p>
+        {{else}}
+          <p class="accessory-price">&pound;{{this.price}}</p>
+        {{/if}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>
