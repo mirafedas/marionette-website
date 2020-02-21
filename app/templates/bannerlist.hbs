@@ -1,1 +1,11 @@
-<div style="background-color: rgb(39, 33, 33); height: 50vh"></div>
+<div class="banner-list">
+  {{#each data.promo}}
+    <div class="banner-list__item" style="background-image: url({{this.image}}); grid-row: {{this.row}}; grid-column: {{this.column}}; align-items: {{this.alignItems}}">
+      <div class="banner-list__item__subtitle">{{this.subtitle}}</div>
+      <div class="banner-list__item__title">{{this.title}}</div>
+      <a class="banner-list__link" href="{{this.url}}">
+        <button {{#if isButtonTransparent}} class="banner-list__btn__transparent" {{else}} class="banner-list__btn__red" {{/if}}>{{this.buttonText}}</button>
+      </a>
+    </div>
+  {{/each}}
+</div>

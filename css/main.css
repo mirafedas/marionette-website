@@ -221,6 +221,78 @@ footer {
   display: none;
 }
 
+/* Bannerlist styles */
+.banner-list {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  min-height: 600px;
+  color: white;
+}
+
+.banner-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-right: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-list__btn__red {
+  padding: 15px 30px;
+  background-color: #DF3550;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner-list__btn__red:hover {
+  background-color: #fff;
+  color: #DF3550;
+}
+
+.banner-list__btn__transparent {
+  display: block;
+  position: relative;
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  line-height: 1;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #fff;
+}
+
+.banner-list__btn__transparent:hover {
+  color: #DF3550;
+}
+
+.banner-list__link {
+  text-decoration: none;
+}
+
+.banner-list__item__subtitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.banner-list__item__title {
+  margin-bottom: 25px;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
 /* Accessories styles */
 .accessories-list-container {
   padding: 60px 0;
@@ -317,7 +389,7 @@ footer {
 /* Advert styles */ 
 .advert {
   height: 400px;
-  width: 100%;
+  margin: 0px 4rem;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -801,6 +873,15 @@ footer {
 @media screen and (max-width: 992px) {
   .product__wrapper {
     width: 31%;
+  }
+
+  .banner-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-list__item {
+    min-height: 250px;
   }
 }
 
