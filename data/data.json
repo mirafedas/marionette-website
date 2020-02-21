@@ -28,21 +28,26 @@
       "title": "Ducebag Collection",
       "subtitle": "Mini Studded",
       "buttonText": "See collection",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/"
+      "position": "left",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/",
+      "alt": "woman"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/abag.png",
       "title": "Hairband Collection",
       "subtitle": "Jaccquard Print",
       "buttonText": "See collection",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/jaccquard-print/"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/jaccquard-print/",
+      "alt": "bag"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/goraman.png",
       "title": "Corduroy Culottes",
       "subtitle": "Special Price",
       "buttonText": "See collection",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/"
+      "position": "right",
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/",
+      "alt": "man"
     }
   ],
   "styles": [
