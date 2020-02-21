@@ -115,63 +115,72 @@
       "title": "Nike Trainers Shoes",
       "price": "150",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=94"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=94",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-belt/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/10-300x300.jpg",
       "title": "Wildcraft Hand Bag",
       "price": "90",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=92"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=92",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/current-watch/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/19-300x300.jpg",
       "title": "Leather Hand Carry",
       "price": "220",
       "salePrice": "100",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=90"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=90",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/leather-wallet/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/leatherbelt1-300x300.jpg",
       "title": "Leather Belt",
       "price": "125",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=88"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=88",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-shoes/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/3-600x600-300x300.jpg",
       "title": "Canon Analog Watch",
       "price": "950",
       "salePrice": "700",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=86"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=86",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/canon-5300d/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/asymm2-800x778-300x300.jpg",
       "title": "Pletz High Hill",
       "price": "45",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=84"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=84",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/iphone-4-64gb/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/pebbled-backpack1-300x300.jpg",
       "title": "Leather Travel bag",
       "price": "215",
       "salePrice": "155",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=82"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=82",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/hero-bicycle/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/18-1-300x300.jpg",
       "title": "Leather Wallet",
       "price": "70",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=80"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=80",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/branded-sunglasses/"
     },
     {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/29-300x300.jpg",
       "title": "Latino Hand Bag",
       "price": "115",
       "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=78"
+      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=78",
+      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/denim-jeans-jacket/"
     }
   ],
   "blog": [
