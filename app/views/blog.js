@@ -9,4 +9,18 @@ export default class BlogView extends Marionette.LayoutView
 
     super(options)
   }
+
+  templateHelpers(){
+    return {
+      formatDay: function() {
+        return new Date().getDate();
+      },
+      formatMonth: () => {
+        return new Date().toLocaleString('en-us', { month: 'short' });
+      },
+      formatYear: () => {
+        return new Date().getFullYear();
+      }
+    }
+  } 
 }
