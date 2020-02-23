@@ -1,17 +1,19 @@
 <div class="product-list__container content__wrapper">
-  <h3 class="product-list__title">{{data.styles.title}}</h3>
-  <h2 class="product-list__subtitle">{{data.styles.subtitle}}</h2>
+  <h3 class="zigcy__title">{{data.styles.title}}</h3>
+  <h2 class="zigcy__subtitle">{{data.styles.subtitle}}</h2>
   <div class="products__container">
     {{#each data.styles.products}}
     <div class="product__wrapper">
-      <a href="">
-        <img src="{{this.imageURL}}" alt="{{this.title}}" class="product__image">
-      </a>
-      {{#if this.salePrice}}
-      <span class="sale__badge">Sale!</span>
-      {{/if}}
-      <p class="product__title">{{this.title}}</p>
-      <p class="product__price">{{this.price}}</p>
+      <div>
+        <a href="">
+          <img src="{{this.imageURL}}" alt="{{this.title}}" class="product__image">
+        </a>
+        {{#if this.salePrice}}
+        <span class="sale__badge">Sale!</span>
+        {{/if}}
+        <p class="product__title">{{this.title}}</p>
+        <p class="product__price">{{this.price}}</p>
+      </div>
     </div>
     {{/each}}
   </div>
