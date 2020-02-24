@@ -217,6 +217,7 @@ body {
 }
 
 .footer-list {
+  margin: 0 5px;
   list-style: none;
 }
 
@@ -463,11 +464,6 @@ body {
 #menu {
   padding: 45px 0;
   margin: 15px 0;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
 }
 
 .menu {
