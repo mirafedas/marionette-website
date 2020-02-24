@@ -10,7 +10,8 @@ body {
 }
 
 .content__wrapper {
-  max-width: 90%;
+  width: 90%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -176,8 +177,6 @@ body {
 }
 
 footer {
-  display: flex;
-  flex-wrap: wrap;
   padding-top: 20px;
 }
 
