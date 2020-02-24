@@ -39,11 +39,21 @@ export default class AppView extends Marionette.LayoutView
 
     const sortedDataByPosition = this.collection.models.sort((a, b) => (a.attributes.position > b.attributes.position) ? 1 : -1)
     console.log(sortedDataByPosition)
-
-    sortedDataByPosition.map(obj => {
-      const newView = new templateNameView({model: this.model});
-      this.showChildView('templatename', newView);
+    const sortedSectionsByPosition = [];
+    sortedDataByPosition.forEach(el => {
+      sortedSectionsByPosition.push({'id': el.attributes.id})
     })
+    this.model.set('sortedSectionsByPosition', sortedSectionsByPosition);
+    console.log(this.model);
+
+    // sortedDataByPosition.map(obj => {
+    //   switch(obj.attributes.id) {
+    //     case 'banner-list':
+
+    //   }
+    //   const newView = new templateNameView({model: this.model});
+    //   this.showChildView('templatename', newView);
+    // })
 
 
     // const bannerListView = new BannerListView({model: this.model});
