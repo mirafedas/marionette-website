@@ -217,6 +217,7 @@ body {
 }
 
 .footer-list {
+  margin: 0 5px;
   list-style: none;
 }
 
@@ -420,8 +421,8 @@ body {
   opacity: .5;
 }
 
-/* Advert styles */ 
-.advert {
+/* promo styles */ 
+.promo {
   height: 400px;
   position: relative;
   background-position: center;
@@ -432,7 +433,7 @@ body {
   line-height: 1.5;
 }
 
-.advert-content {
+.promo-content {
   position: absolute;
   top: 40%;
   width: 100%;
@@ -443,17 +444,17 @@ body {
   z-index: 10;
 }
 
-.advert-text {
+.promo-text {
   font-size: 20px;
 }
 
-.advert-heading {
+.promo-heading {
   font-size: 35px;
   font-weight: 800;
   text-align: center;
 }
 
-.advert-price {
+.promo-price {
   font-size: 25px;
   font-weight: 600;
 }
@@ -463,11 +464,6 @@ body {
 #menu {
   padding: 45px 0;
   margin: 15px 0;
-}
-
-.container {
-  margin: 0 auto;
-  width: 100%;
 }
 
 .menu {
