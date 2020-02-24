@@ -1,230 +1,256 @@
-{
-  "promo": [
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11.jpg",
-      "title": "Closing trend 2018",
-      "subtitle": "Sale offer 20% off this week",
-      "buttonText": "Shop now",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/currnet-styling-trend/",
-      "row": "1/3",
-      "column": "1",
-      "alignItems": "center"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/01/2019-01-17.png",
-      "title": "Mid season sale",
-      "subtitle": "Sales up to 25% off",
-      "buttonText": "Starting At $20",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/",
-      "row": "1",
-      "column": "2",
-      "alignItems": "flex-end",
-      "isButtonTransparent": "true"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/2019-03-22.jpg",
-      "title": "Autumn fashion",
-      "subtitle": "New arrival fall 2018",
-      "buttonText": "Shop now",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/#",
-      "row": "2",
-      "alignItems": "flex-end",
-      "column": "2"
-    }
-  ],
-  "collection": [
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/gajaltae-kte.png",
-      "title": "Ducebag Collection",
-      "subtitle": "Mini Studded",
-      "buttonText": "See collection",
-      "position": "left",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/",
-      "alt": "woman"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/abag.png",
-      "title": "Hairband Collection",
-      "subtitle": "Jaccquard Print",
-      "buttonText": "See collection",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/jaccquard-print/",
-      "alt": "bag"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/goraman.png",
-      "title": "Corduroy Culottes",
-      "subtitle": "Special Price",
-      "buttonText": "See collection",
-      "position": "right",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/",
-      "alt": "man"
-    }
-  ],
-  "styles": {
-    "title": "Mens styles",
-    "subtitle": "get sale alerts on styles you love",
-    "products": [
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/1-1-300x300.jpg",
-      "title": "Sweat Pullover",
-      "price": "95.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/textured-slim-fit-blazer/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/81-300x300.jpg",
-      "title": "Puma Trainee Shoes",
-      "price": "155.00",
-      "salePrice": "125.00",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/super-slim-fit-suit-blazer/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/23-300x300.jpg",
-      "title": "LVD Green Hoody",
-      "price": "90.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/lvd-jeans/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/27-300x300.jpg",
-      "title": "Asta Black Top",
-      "price": "85.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/denim-jeans-pants/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/25-300x300.jpg",
-      "title": "Jordan Jacket",
-      "price": "90.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/black-lady-coat/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/prd3-300x300.jpg",
-      "title": "Slim Fit Jogger",
-      "price": "65.00",
-      "salePrice": "55.00",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/slim-fit-coat/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/21-300x300.jpg",
-      "title": "JD Cap",
-      "price": "45.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/new-shirts/"
-    },
-    {
-      "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/prd1-300x300.jpg",
-      "title": "Men’s Cotton Bag",
-      "price": "450.00",
-
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/mens-cotton-tshirts/"
-    }
-  ]},
-  "sale": {
-    "image": "https://demo.accesspressthemes.com/zigcy-lite/wp-content/uploads/2018/11/home1-large-banner.jpg",
-    "title": "GRAB YOUR FASHION TREND TODAY",
-    "subtitle": "Seasonal Sale 70% Off",
-    "price": "$45.00 - $90.00"
+[
+  {
+    "id": "banner-list",
+    "position": "3",
+    "content": [
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11.jpg",
+        "title": "Closing trend 2018",
+        "subtitle": "Sale offer 20% off this week",
+        "buttonText": "Shop now",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/currnet-styling-trend/",
+        "row": "1/3",
+        "column": "1",
+        "alignItems": "center"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/01/2019-01-17.png",
+        "title": "Mid season sale",
+        "subtitle": "Sales up to 25% off",
+        "buttonText": "Starting At $20",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/",
+        "row": "1",
+        "column": "2",
+        "alignItems": "flex-end",
+        "isButtonTransparent": "true"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/2019-03-22.jpg",
+        "title": "Autumn fashion",
+        "subtitle": "New arrival fall 2018",
+        "buttonText": "Shop now",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/#",
+        "row": "2",
+        "alignItems": "flex-end",
+        "column": "2"
+      }
+    ]
   },
-  "accessories": [
+  {
+    "id": "menu",
+    "position": "2",
+    "content": [
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/gajaltae-kte.png",
+        "title": "Ducebag Collection",
+        "subtitle": "Mini Studded",
+        "buttonText": "See collection",
+        "position": "left",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/mini-studded/",
+        "alt": "woman"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/abag.png",
+        "title": "Hairband Collection",
+        "subtitle": "Jaccquard Print",
+        "buttonText": "See collection",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/jaccquard-print/",
+        "alt": "bag"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/goraman.png",
+        "title": "Corduroy Culottes",
+        "subtitle": "Special Price",
+        "buttonText": "See collection",
+        "position": "right",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product-category/special-price/",
+        "alt": "man"
+      }
+    ]
+  },
+  {
+    "id": "product-list",
+    "position": "1",
+    "content": 
     {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/4-300x300.jpg",
-      "title": "Nike Trainers Shoes",
-      "price": "150",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=94",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-belt/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/10-300x300.jpg",
-      "title": "Wildcraft Hand Bag",
-      "price": "90",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=92",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/current-watch/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/19-300x300.jpg",
-      "title": "Leather Hand Carry",
-      "price": "220",
-      "salePrice": "100",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=90",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/leather-wallet/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/leatherbelt1-300x300.jpg",
-      "title": "Leather Belt",
-      "price": "125",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=88",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-shoes/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/3-600x600-300x300.jpg",
-      "title": "Canon Analog Watch",
-      "price": "950",
-      "salePrice": "700",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=86",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/canon-5300d/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/asymm2-800x778-300x300.jpg",
-      "title": "Pletz High Hill",
-      "price": "45",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=84",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/iphone-4-64gb/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/pebbled-backpack1-300x300.jpg",
-      "title": "Leather Travel bag",
-      "price": "215",
-      "salePrice": "155",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=82",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/hero-bicycle/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/18-1-300x300.jpg",
-      "title": "Leather Wallet",
-      "price": "70",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=80",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/branded-sunglasses/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/29-300x300.jpg",
-      "title": "Latino Hand Bag",
-      "price": "115",
-      "salePrice": "",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=78",
-      "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/denim-jeans-jacket/"
+      "title": "Mens styles",
+      "subtitle": "get sale alerts on styles you love",
+      "products": [
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/1-1-300x300.jpg",
+        "title": "Sweat Pullover",
+        "price": "95.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/textured-slim-fit-blazer/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/81-300x300.jpg",
+        "title": "Puma Trainee Shoes",
+        "price": "155.00",
+        "salePrice": "125.00",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/super-slim-fit-suit-blazer/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/23-300x300.jpg",
+        "title": "LVD Green Hoody",
+        "price": "90.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/lvd-jeans/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/27-300x300.jpg",
+        "title": "Asta Black Top",
+        "price": "85.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/denim-jeans-pants/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/25-300x300.jpg",
+        "title": "Jordan Jacket",
+        "price": "90.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/black-lady-coat/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/prd3-300x300.jpg",
+        "title": "Slim Fit Jogger",
+        "price": "65.00",
+        "salePrice": "55.00",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/slim-fit-coat/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/21-300x300.jpg",
+        "title": "JD Cap",
+        "price": "45.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/new-shirts/"
+      },
+      {
+        "imageURL": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/prd1-300x300.jpg",
+        "title": "Men’s Cotton Bag",
+        "price": "450.00",
+  
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/mens-cotton-tshirts/"
+      }
+    ]}
+  },
+  {
+    "id": "promo",
+    "position": "4",
+    "content": {
+      "image": "https://demo.accesspressthemes.com/zigcy-lite/wp-content/uploads/2018/11/home1-large-banner.jpg",
+      "title": "GRAB YOUR FASHION TREND TODAY",
+      "subtitle": "Seasonal Sale 70% Off",
+      "price": "$45.00 - $90.00"
     }
-  ],
-  "blog": [
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-2-390x290.jpg",
-      "alt": "man",
-      "date": "19 Feb 2020",
-      "title": "Spring summer fashion trends",
-      "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/spring-summer-fashion-trends/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-1-390x290.jpg",
-      "alt": "children",
-      "date": "19 Feb 2020",
-      "title": "Current Styling Trend",
-      "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/current-styling-trend/"
-    },
-    {
-      "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-390x290.jpg",
-      "alt": "woman",
-      "date": "19 Feb 2020",
-      "title": "Best fashion trends for women",
-      "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
-      "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/latest-styling/"
-    }
-  ]
-}
+  },
+  {
+    "id": "accessories-list",
+    "position": "5",
+    "content": [
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/4-300x300.jpg",
+        "title": "Nike Trainers Shoes",
+        "price": "150",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=94",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-belt/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/10-300x300.jpg",
+        "title": "Wildcraft Hand Bag",
+        "price": "90",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=92",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/current-watch/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/19-300x300.jpg",
+        "title": "Leather Hand Carry",
+        "price": "220",
+        "salePrice": "100",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=90",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/leather-wallet/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/leatherbelt1-300x300.jpg",
+        "title": "Leather Belt",
+        "price": "125",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=88",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/brown-shoes/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/3-600x600-300x300.jpg",
+        "title": "Canon Analog Watch",
+        "price": "950",
+        "salePrice": "700",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=86",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/canon-5300d/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/asymm2-800x778-300x300.jpg",
+        "title": "Pletz High Hill",
+        "price": "45",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=84",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/iphone-4-64gb/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/pebbled-backpack1-300x300.jpg",
+        "title": "Leather Travel bag",
+        "price": "215",
+        "salePrice": "155",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=82",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/hero-bicycle/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/18-1-300x300.jpg",
+        "title": "Leather Wallet",
+        "price": "70",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=80",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/branded-sunglasses/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2018/11/29-300x300.jpg",
+        "title": "Latino Hand Bag",
+        "price": "115",
+        "salePrice": "",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/?add-to-cart=78",
+        "productUrl": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/product/denim-jeans-jacket/"
+      }
+    ]
+  },
+  {
+    "id": "blog",
+    "position": "6",
+    "content": 
+    [
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-2-390x290.jpg",
+        "alt": "man",
+        "date": "19 Feb 2020",
+        "title": "Spring summer fashion trends",
+        "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/spring-summer-fashion-trends/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-1-390x290.jpg",
+        "alt": "children",
+        "date": "19 Feb 2020",
+        "title": "Current Styling Trend",
+        "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/current-styling-trend/"
+      },
+      {
+        "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11-390x290.jpg",
+        "alt": "woman",
+        "date": "19 Feb 2020",
+        "title": "Best fashion trends for women",
+        "text": "Chances are unless you are very lucky you will go thru many different relationships before you",
+        "url": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/latest-styling/"
+      }
+    ]
+  }
+]

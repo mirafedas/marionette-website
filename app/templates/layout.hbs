@@ -1,8 +1,5 @@
 <section id="header"></section>
-<section id="banner-list"></section>
-<section id="menu"></section>
-<section id="product-list"></section>
-<section id="advert"></section>
-<section id="accessories-list"></section>
-<section id="blog"></section>
+{{#each sortedData}}
+  <section id={{this.id}} />
+{{/each}}
 <section id="footer"></section>
