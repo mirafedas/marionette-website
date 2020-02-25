@@ -4,8 +4,7 @@ import data from '../../data/data.json';
 export default class HomePageModel extends Backbone.Model {
   defaults() {
     return {
-      data,
-      sortedSectionsByPosition: []
+      sortedSectionsByPosition: data.sort((a, b) => (a.position > b.position) ? 1 : -1)
     }
   }
 }

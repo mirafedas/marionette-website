@@ -1,7 +1,7 @@
 [
   {
-    "id": "banner-list",
-    "position": "3",
+    "id": "bannerlist",
+    "position": "1",
     "content": [
       {
         "image": "https://demo.accesspressthemes.com/zigcy-lite/demo-one/wp-content/uploads/sites/2/2019/03/2019-03-11.jpg",
@@ -69,8 +69,8 @@
     ]
   },
   {
-    "id": "product-list",
-    "position": "1",
+    "id": "productlist",
+    "position": "3",
     "content": 
     {
       "title": "Mens styles",
@@ -135,7 +135,7 @@
     ]}
   },
   {
-    "id": "promo",
+    "id": "advert",
     "position": "4",
     "content": {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/wp-content/uploads/2018/11/home1-large-banner.jpg",
@@ -145,7 +145,7 @@
     }
   },
   {
-    "id": "accessories-list",
+    "id": "accessories",
     "position": "5",
     "content": [
       {

@@ -17,11 +17,11 @@ export default class AppView extends Marionette.LayoutView
    options.template = LayoutTemplate;
    options.el = '#app-hook';
    options.regions = {
-     bannerlist: '#banner-list',
+     bannerlist: '#bannerlist',
      menu: '#menu',
-     productlist: '#product-list',
+     productlist: '#productlist',
      advert: '#advert',
-     accessories: '#accessories-list',
+     accessories: '#accessories',
      blog: '#blog',
      header: '#header',
      footer: '#footer'
@@ -30,45 +30,28 @@ export default class AppView extends Marionette.LayoutView
    super(options)
  }
 
- onRender()
-  {
-    const headerView = new HeaderView({model: this.model});
-    const footerView = new FooterView({model: this.model});
+  onRender() {
+    const sectionsEnum = {
+      bannerlist: BannerListView,
+      menu: MenuView,
+      productlist: ProductListView,
+      advert: AdvertView,
+      accessories: AccessoriesListView,
+      blog: BlogView,
+    };
+    const headerView = new HeaderView({ model: this.model });
+    const footerView = new FooterView({ model: this.model });
     this.showChildView('header', headerView);
     this.showChildView('footer', footerView);
 
-    const sortedDataByPosition = this.collection.models.sort((a, b) => (a.attributes.position > b.attributes.position) ? 1 : -1)
+    const sortedDataByPosition = this.collection.models.sort((prevObj, nextObj) => (prevObj.attributes.position > nextObj.attributes.position) ? 1 : -1);
     console.log(sortedDataByPosition)
-    const sortedSectionsByPosition = [];
-    sortedDataByPosition.forEach(el => {
-      sortedSectionsByPosition.push({'id': el.attributes.id})
-    })
-    this.model.set('sortedSectionsByPosition', sortedSectionsByPosition);
-    console.log(this.model);
 
-    // sortedDataByPosition.map(obj => {
-    //   switch(obj.attributes.id) {
-    //     case 'banner-list':
+    sortedDataByPosition.forEach(item => {
+     const el = sectionsEnum[item.id];
+     const section = new el({ model: this.model });
 
-    //   }
-    //   const newView = new templateNameView({model: this.model});
-    //   this.showChildView('templatename', newView);
-    // })
-
-
-    // const bannerListView = new BannerListView({model: this.model});
-    // const menuView = new MenuView({model: this.model});
-    // const productListView = new ProductListView({model: this.model});
-    // const advertView = new AdvertView({model: this.model});
-    // const accessoriesListView = new AccessoriesListView({model: this.model});
-    // const blogView = new BlogView({model: this.model});
-   
-
-    // this.showChildView('bannerlist', bannerListView);
-    // this.showChildView('menu', menuView);
-    // this.showChildView('productlist', productListView);
-    // this.showChildView('advert', advertView);
-    // this.showChildView('accessories', accessoriesListView);
-    // this.showChildView('blog', blogView);
+     this.showChildView(item.id, section);
+   })
   }
 }
