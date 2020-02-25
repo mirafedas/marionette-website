@@ -45,13 +45,18 @@ export default class AppView extends Marionette.LayoutView
     this.showChildView('footer', footerView);
 
     const sortedDataByPosition = this.collection.models.sort((prevObj, nextObj) => (prevObj.attributes.position > nextObj.attributes.position) ? 1 : -1);
-    console.log(sortedDataByPosition)
+    // console.log("sortedDataByPosition>> ", sortedDataByPosition)
 
     sortedDataByPosition.forEach(item => {
-     const el = sectionsEnum[item.id];
-     const section = new el({ model: this.model });
+      const el = sectionsEnum[item.id];
+      this.model.set(`${item.attributes.id}`, item.attributes.content);
+      // console.log("item ", item)
+      console.log(this.model)
+      const section = new el({ model: this.model });
 
-     this.showChildView(item.id, section);
-   })
+      this.showChildView(item.id, section);
+    })
+    
+
   }
 }
