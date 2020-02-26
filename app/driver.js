@@ -1,5 +1,6 @@
 import Backbone from 'backbone';
 import Marionette from 'backbone.marionette';
+// import './public-path';
 
 import HomePageModel from './models/homepage';
 import LayoutView from './views/layout';

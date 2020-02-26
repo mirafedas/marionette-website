@@ -136,7 +136,7 @@
     }
   },
   {
-    "id": "advert",
+    "id": "promo",
     "position": "4",
     "content": {
       "image": "https://demo.accesspressthemes.com/zigcy-lite/wp-content/uploads/2018/11/home1-large-banner.jpg",
@@ -146,7 +146,7 @@
     }
   },
   {
-    "id": "accessories",
+    "id": "watches",
     "position": "5",
     "content": [
       {

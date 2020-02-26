@@ -8,8 +8,8 @@ export default class HomePageModel extends Backbone.Model {
       bannerlist: {},
       menu: {},
       productlist: {},
-      advert: {},
-      accessories: {},
+      promo: {},
+      watches: {},
       blog: {},
       header: {},
       footer: {}
