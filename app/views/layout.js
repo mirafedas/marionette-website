@@ -31,13 +31,12 @@ export default class AppView extends Marionette.LayoutView
     this.showChildView('header', headerView);
     this.showChildView('footer', footerView);
 
-    sortedSectionsByPosition.forEach(item => {
-      import(/* webpackChunkName: "[request]" */ `./${item.id}`).then(importedView => {
-        const createdView = new importedView.default({ model: this.model });
+    sortedSectionsByPosition.forEach(async item => {
+      const importedView = await import(/* webpackChunkName: "[request]" */ `./${item.id}`);
+      const createdView = new importedView.default({ model: this.model });
 
-        this.model.set(`${item.id}`, item.content);
-        this.showChildView(item.id, createdView);
+      this.model.set(`${item.id}`, item.content);
+      this.showChildView(item.id, createdView);
       })
-    })
+    }
   }
-}
