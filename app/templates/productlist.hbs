@@ -1,8 +1,8 @@
 <div class="product-list__container content__wrapper">
-  <h3 class="zigcy__title">{{data.styles.title}}</h3>
-  <h2 class="zigcy__subtitle">{{data.styles.subtitle}}</h2>
+  <h3 class="zigcy__title">{{this.productlist.title}}</h3>
+  <h2 class="zigcy__subtitle">{{this.productlist.subtitle}}</h2>
   <div class="products__container">
-    {{#each data.styles.products}}
+    {{#each this.productlist.products}}
     <div class="product__wrapper">
       <div>
         <a href="">

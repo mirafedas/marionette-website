@@ -1,12 +1,6 @@
 import Marionette from 'backbone.marionette'
 
 import LayoutTemplate from '../templates/layout.hbs'
-import BannerListView from './bannerlist'
-import MenuView from './menu'
-import ProductListView from './productlist'
-import AdvertView from './advert'
-import AccessoriesListView from './accessories'
-import BlogView from './blog'
 import HeaderView from './header';
 import FooterView from './footer';
 
@@ -17,11 +11,11 @@ export default class AppView extends Marionette.LayoutView
    options.template = LayoutTemplate;
    options.el = '#app-hook';
    options.regions = {
-     bannerlist: '#banner-list',
+     bannerlist: '#bannerlist',
      menu: '#menu',
-     productlist: '#product-list',
-     advert: '#advert',
-     accessories: '#accessories-list',
+     productlist: '#productlist',
+     promo: '#promo',
+     watches: '#watches',
      blog: '#blog',
      header: '#header',
      footer: '#footer'
@@ -30,24 +24,20 @@ export default class AppView extends Marionette.LayoutView
    super(options)
  }
 
- onRender()
-  {
-    const bannerListView = new BannerListView({model: this.model});
-    const menuView = new MenuView({model: this.model});
-    const productListView = new ProductListView({model: this.model});
-    const advertView = new AdvertView({model: this.model});
-    const accessoriesListView = new AccessoriesListView({model: this.model});
-    const blogView = new BlogView({model: this.model});
-    const headerView = new HeaderView({model: this.model});
-    const footerView = new FooterView({model: this.model});
-
-    this.showChildView('bannerlist', bannerListView);
-    this.showChildView('menu', menuView);
-    this.showChildView('productlist', productListView);
-    this.showChildView('advert', advertView);
-    this.showChildView('accessories', accessoriesListView);
-    this.showChildView('blog', blogView);
+  onRender() {
+    const sortedSectionsByPosition = this.model.attributes.sortedSectionsByPosition;
+    const headerView = new HeaderView({ model: this.model });
+    const footerView = new FooterView({ model: this.model });
     this.showChildView('header', headerView);
-    this.showChildView('footer', footerView)
+    this.showChildView('footer', footerView);
+
+    sortedSectionsByPosition.forEach(item => {
+      import(/* webpackChunkName: "[request]" */ `./${item.id}`).then(importedView => {
+        const createdView = new importedView.default({ model: this.model });
+
+        this.model.set(`${item.id}`, item.content);
+        this.showChildView(item.id, createdView);
+      })
+    })
   }
 }

@@ -1,0 +1,26 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["bannerlist"],{
+
+/***/ "./app/templates/bannerlist.hbs":
+/*!**************************************!*\
+  !*** ./app/templates/bannerlist.hbs ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var Handlebars = __webpack_require__(/*! ../../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"1\":function(container,depth0,helpers,partials,data) {\n    var stack1, alias1=container.lambda, alias2=container.escapeExpression, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"    <div class=\\\"banner-list__item\\\" style=\\\"background-image: url(\"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"image\") : depth0), depth0))\n    + \"); grid-row: \"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"row\") : depth0), depth0))\n    + \"; grid-column: \"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"column\") : depth0), depth0))\n    + \"; align-items: \"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"alignItems\") : depth0), depth0))\n    + \"\\\">\\n      <div class=\\\"banner-list__item__subtitle\\\">\"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"subtitle\") : depth0), depth0))\n    + \"</div>\\n      <div class=\\\"banner-list__item__title\\\">\"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"title\") : depth0), depth0))\n    + \"</div>\\n      <a class=\\\"banner-list__link\\\" href=\\\"\"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"url\") : depth0), depth0))\n    + \"\\\">\\n        <button \"\n    + ((stack1 = lookupProperty(helpers,\"if\").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,\"isButtonTransparent\") : depth0),{\"name\":\"if\",\"hash\":{},\"fn\":container.program(2, data, 0),\"inverse\":container.program(4, data, 0),\"data\":data,\"loc\":{\"start\":{\"line\":7,\"column\":16},\"end\":{\"line\":7,\"column\":128}}})) != null ? stack1 : \"\")\n    + \">\"\n    + alias2(alias1((depth0 != null ? lookupProperty(depth0,\"buttonText\") : depth0), depth0))\n    + \"</button>\\n      </a>\\n    </div>\\n\";\n},\"2\":function(container,depth0,helpers,partials,data) {\n    return \" class=\\\"banner-list__btn__transparent\\\" \";\n},\"4\":function(container,depth0,helpers,partials,data) {\n    return \" class=\\\"banner-list__btn__red\\\" \";\n},\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<div class=\\\"banner-list\\\">\\n\"\n    + ((stack1 = lookupProperty(helpers,\"each\").call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? lookupProperty(depth0,\"bannerlist\") : depth0),{\"name\":\"each\",\"hash\":{},\"fn\":container.program(1, data, 0),\"inverse\":container.noop,\"data\":data,\"loc\":{\"start\":{\"line\":2,\"column\":2},\"end\":{\"line\":10,\"column\":11}}})) != null ? stack1 : \"\")\n    + \"</div>\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./app/templates/bannerlist.hbs?");
+
+/***/ }),
+
+/***/ "./app/views/bannerlist.js":
+/*!*********************************!*\
+  !*** ./app/views/bannerlist.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return BannerListView; });\n/* harmony import */ var backbone_marionette__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! backbone.marionette */ \"./node_modules/backbone.marionette/lib/core/backbone.marionette.js\");\n/* harmony import */ var backbone_marionette__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(backbone_marionette__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _templates_bannerlist_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../templates/bannerlist.hbs */ \"./app/templates/bannerlist.hbs\");\n/* harmony import */ var _templates_bannerlist_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_templates_bannerlist_hbs__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nclass BannerListView extends backbone_marionette__WEBPACK_IMPORTED_MODULE_0___default.a.LayoutView {\n  constructor(options) {\n    options.template = _templates_bannerlist_hbs__WEBPACK_IMPORTED_MODULE_1___default.a;\n\n    super(options)\n  }\n}\n\n//# sourceURL=webpack:///./app/views/bannerlist.js?");
+
+/***/ })
+
+}]);

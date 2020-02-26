@@ -12,7 +12,8 @@ module.exports = {
   },
   output: {
     path: __dirname + '/static/js',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/static/js/'
   },
   plugins: [
     new webpack.ProvidePlugin({
